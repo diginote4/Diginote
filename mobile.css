@@ -1,0 +1,51 @@
+body {
+    overflow-y: auto;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+main {
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: 100%;
+}
+
+.banner{
+    grid-area: 3 / 1;
+}
+
+.foto {
+    grid-area: auto;
+    height: 200px;
+    background-position: center;
+}
+
+.banner {
+    height: 250px;
+}
+
+.about {
+    grid-area: auto;
+}
+
+nav {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.nav__ul {
+    display: flex;
+    gap: 20px;
+}
+
+.ul__li {
+    margin-top: 0;
+}
+
+.about__container{
+    display: flex;
+    flex-direction: column;
+}
