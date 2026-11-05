@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -28,11 +30,33 @@
         </aside>
         <section class="about">
             <h1><span>¡My</span> Music!</h1>
-            <h2 class="error--text">Nothing to see there ;[</h2>
-            <img class="error--img" src="../assets/img/temp.png" alt="Hitori Goto sad">
+            <div class="music__container">
+                <div class="about__items">
+                    <img src="../assets/img/iyowa.jpg" alt="Puñetazo Cover">
+                    <div class="about__info">
+                        <div class="track__details">
+                            <h3 class="track__title">Puñetazo</h3>
+                            <p class="track__artist">Tu Nombre / Artista</p>
+                            <div class="track__tags">
+                                <span class="badge">J-Pop</span>
+                                <span class="badge">Indie</span>
+                                <span class="duration">3:45</span>
+                            </div>
+                        </div>
+                        <div class="about__social">
+                            <a href="https://youtube.com" target="_blank" class="container__social"
+                                title="Escuchar en YouTube">
+                                <span class="youtube"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <script src="../js/background.js"></script>
+    <script src="../js/musicPlayer.js"></script>
 </body>
+
 </html>
